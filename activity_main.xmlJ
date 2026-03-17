@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver recetas"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/receta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receta: Ensalada saludable"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/titulo"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/ingredientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredientes: lechuga, tomate, aguacate"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/receta"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/pasos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pasos: cortar ingredientes y mezclar"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/ingredientes"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tiempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiempo de preparación: 10 minutos"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/pasos"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/calorias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calorías: 150 kcal"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/tiempo"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/btnAgregarFavoritos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar a favoritos"
+        app:layout_constraintTop_toBottomOf="@id/calorias"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

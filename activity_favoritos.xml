@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tituloFavoritos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mis Recetas Favoritas"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/recetaFavorita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ensalada saludable"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/tituloFavoritos"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tiempoFavorito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiempo: 10 minutos"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/recetaFavorita"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/caloriasFavorito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calorías: 150 kcal"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/tiempoFavorito"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/btnVerReceta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver receta"
+        app:layout_constraintTop_toBottomOf="@id/caloriasFavorito"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
