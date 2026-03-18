@@ -1,4 +1,4 @@
-package com.login.resetassaludables;
+package com.example.recetassaludablesapp;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
