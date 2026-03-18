@@ -1,3 +1,18 @@
 <resources>
+    <!-- Este es el nombre de la aplicación -->
     <string name="app_name">RecetasSaludablesApp</string>
+
+    <!-- Strings de la pantalla LoginActivity -->
+    <string name="login_title">Iniciar sesión</string>
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_ingresar">Ingresar</string>
+
+    <!-- Strings de la pantalla MainMenuActivity -->
+    <string name="menu_title">Menú Principal</string>
+    <string name="btn_ver_recetas">Ver recetas</string>
+    <string name="btn_mis_favoritos">Mis favoritos</string>
+    <string name="btn_recetas_comunidad">Recetas de la comunidad</string>
+    <string name="btn_mi_perfil">Mi perfil</string>
+
 </resources>
